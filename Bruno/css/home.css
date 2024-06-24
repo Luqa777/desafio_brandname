@@ -1,0 +1,404 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1920px;
+    width: 90%;
+    margin: 0 auto;
+   }
+
+.header-bg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.name li{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.l-nav{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+.b-login{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+.b-invite{
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.grid-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+    justify-items: center;
+    margin-bottom: 300px;
+}
+
+.item-1 p{
+    font-size: 20px;
+    margin-bottom: 50px ;
+
+}
+
+.item-1 h1{
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.item-1 h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+    max-width: 520px;
+}
+.buttons{
+    gap: 20px;
+    display: flex;
+
+}
+.b-quote{
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: cadetblue;
+    font-size: 16px;
+    color: white;
+    font-weight: 500
+}
+
+.b-learn{
+    padding: 20px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: solid 1px blue;
+    font-size: 16px;
+    color: white;
+    font-weight: 500
+}
+
+.grid-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
+    gap: 10px;
+    margin-bottom: 300px;
+}
+.cards{
+    padding: 20px;
+    min-height: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+}
+.cards h1{
+    font-size: 18px;
+    color: black;
+}
+
+.cards p{
+    color: grey;
+    max-width: 200px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.cards img{
+    max-width: 60px;
+}
+
+.grid-packages{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 300px;
+    justify-items: center;
+    
+}
+.packagens-info{
+    margin: auto 0;
+}
+.packagens-info h1{
+    font-size: 24px;
+    max-width: 200px;
+    
+    margin-bottom: 20px;
+}
+
+.packagens-info p{
+    font-size: 16px;
+    max-width: 200px;
+    color: grey;
+    margin-bottom: 20px;
+
+}
+
+.packagens-info button{
+    background-color: transparent;
+    color: blue;
+    font-weight: 0;
+    padding: 10px 0px;
+}
+.courses-info{
+    margin-bottom: 50px;
+}
+.courses-info .item-1{
+    grid-row: 2;
+}
+.courses-info p{
+    font-size: 16px;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.courses-info h1{
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+
+}
+
+.courses-info h2{
+    font-size: 14px;
+    color: white;
+    max-width: 330px;
+}
+
+.courses{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+
+.course-bottom .course-subtitle p{
+    color: blue;
+    margin-top: 20px;
+}
+
+.course-bottom h1{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.course-bottom p{
+    color: grey;
+    margin-bottom: 20px;
+}
+.course-bottom p img{
+    max-width: 20px;
+}
+
+.course-bottom .price{
+    color: green;
+    margin-bottom: 30px;
+}
+
+.course-bottom .progress p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.course-bottom .progress{
+    display: flex;
+    gap: 20px;
+}
+
+.course-bottom button{
+    border-radius: 15px;
+    width: 150px;
+    padding: 15px;
+    background-color: transparent;
+    border: solid 2px blue;
+    color: blue;
+}
+
+.grid-courses{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+
+    gap: 20px;
+
+}
+.s-courses{
+    margin-bottom: 300px;
+}
+
+.avaliate{
+    margin-bottom: 300px;
+}
+
+.intro-avaliate p{
+    color: blue;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: normal;
+
+}
+
+.intro-avaliate h1{
+    color: white;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.intro-avaliate h2{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+.cards-avaliate{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    background-color: white;
+}
+.cards-avaliate p{ 
+    color: gray;
+    max-width: 140px;
+    text-align: center;
+}
+
+.autor-avaliate{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.autor-avaliate .autor{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+
+}
+.autor-avaliate .autor .name{
+    color: blue;
+    font-size: 16px;
+
+}
+.autor-avaliate .autor .prof{
+    color: black;
+
+    font-size: 16px;
+    font-weight: normal;
+}
+.img-avaliate{
+    max-width: 90px;
+}
+
+.grid-avaliate{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 20px;
+
+}
+.formulary{
+    margin-bottom: 300px;
+}
+
+.intro-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-form p{
+    color: blue;
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.intro-form h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.intro-form h2{
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 50px;
+    max-width: 300px;
+}
+
+.bg-form{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.bg-form form input{
+    padding: 8px 15px;
+    background: white;
+    width: 500px;
+    padding: 15px 10px;
+}
+
+.bg-form button{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 15px 10px;
+    width: 200px;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+    justify-items: center;
+
+}
+.f-contacts{
+    margin-bottom: 50px;
+}
+.footer-titles h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-titles p{
+    font-size: 16px;
+}
+
+.f-nav li{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.rodape{
+    background-color: white;
+    padding: 20px;
+}
+
+.rodape h1{
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
